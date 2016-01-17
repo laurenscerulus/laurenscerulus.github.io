@@ -1,0 +1,37 @@
+.navbar-default {
+	color: SEARCH FOR CODE TRANSPARENT;
+	border-color: none;
+	opacity: .3;
+	padding: 20px 0px 10px 0px;
+}
+
+.navbar:hover{
+	opacity: .7;
+}
+
+.navbar-nav:hover{
+	<!-- edit buttons style in navbar-->
+}
+
+.newsletter{
+	background-color: #fff;
+	padding: 60px 20px;
+	opacity: .4;
+}
+
+.gutter{
+	padding: 60px 20px;	
+}
+
+.center {
+	margin-left: auto;
+    margin-right: auto;
+	width: 80%;
+}
+	
+/*
+Dark gray: #101110
+light gray: #F2F2F2
+blue: #555577
+pimpel: #660011
+
