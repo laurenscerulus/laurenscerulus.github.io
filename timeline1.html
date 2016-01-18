@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	   
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+
+		<!-- TimelineJS -->
+		<title>TimelineJS Example</title>
+		<meta name="description" content="TimelineJS Embed">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<!-- CSS-->
+		<link rel="stylesheet" href="css/timeline.css?v1">
+		<!--FONT-->
+		<link rel="stylesheet" href="css/fonts/font.default.css?v1">
+		<!-- Style-->
+		<style>
+		  html, body {
+			height:100%;
+			width:100%;
+			padding: 0px;
+			margin: 0px;
+		  }
+		  .tl-timeline {
+			
+		  }
+		  
+		</style>
+	</head>
+	
+	<body>
+	<header>
+		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">
+						Playground Home
+					</a>
+				</div>
+				<div class="navbar-collapse collapse navbar-right">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="https://github.com/laurenscerulus">Github</a>
+						</li>
+						<li>
+							<a href="http://www.twitter.com/laurenscerulus" target="_blank">Twitter</a>
+						</li>
+						<li>
+							<a href="http://laurenscerulus.wordpress.com" target="_blank">Wordpress</a>
+						</li>	
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>
+	</header>
+
+	<!-- Timeline JS div -->
+	<div class="container" id="timeline1laurenscerulus"></div> 
+	
+<div class="container">	
+	<section id="contact">
+		<div class="gutter">
+			<h2>'You're doing it all wrong!'</h2>
+			<p>Probably I'm doing it all wrong, yes. Contact me to tell me exactly in what ways I'm screwing it up.</p>
+			<p><a class="btn btn-default" href="mailto:laurenscerulus@gmail.com" role="button">Contact</a></p>
+		</div>
+	</section>
+</div>	
+   
+<footer>
+	<!-- Footer to go here... -->
+</footer>
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) insert before ending body tag -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	
+	<!-- For D3 -->
+	<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	
+	<!-- For Timeline -->
+	<script src="js/timeline.js"></script>
+	<script>
+      var timeline = new TL.Timeline('timeline1laurenscerulus', 'timelines-data/timeline1.json', {
+      	theme_color: "#288EC3",
+      	ga_property_id: "UA-27829802-4"
+      });
+    </script>
+	
+  </body>
+</html>
